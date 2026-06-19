@@ -1,0 +1,10 @@
+name = "cab3-vote-backend"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+# After running `wrangler d1 create cab3_votes`, paste the database_id
+# it gives you below.
+[[d1_databases]]
+binding = "DB"
+database_name = "cab3_votes"
+database_id = "2bf4f177-b5aa-4119-a410-2478ce986cc0"
