@@ -179,7 +179,7 @@ function clearLocalLock(pollId) {
   } catch { /* storage unavailable */ }
 }
 
-const API_BASE = "http://localhost:8787";
+const API_BASE = "https://cab3-vote-backend.cab3.workers.dev";
 
 async function computeDeviceHash() {
   const parts = [
